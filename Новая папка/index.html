@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        yellow: '#FCB72B',
+                        dark_navy: '#495567',
+                        dim_grey: '#939CAA',
+                        light_grey: '#E5ECF4',
+                    }
+                },
+                container: {
+                    center: true,
+                    padding: {
+                        DEFAULT: '1rem',
+                        sm: '2rem',
+                        xl: '4rem',
+                        xl: '5rem',
+                        '2xl': '6rem',
+                    },
+                },
+                fontFamily: {
+                    'space': 'Space Mono',
+                    'lexend': 'Lexend Deca'
+                },
+                backgroundImage: {
+                    'hero': "url('./images/Rectangle 3 (1).png')",
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="bg-black">
+        <div class="container flex justify-between">
+            <div class="p-1 text-gray-600 ">
+                <a href=""><i class="fa-solid fa-phone"></i>8 (812) 123-45-67 | Работаем 7 дней в неделю | 9:00 — 18:00
+                </a>
+
+            </div>
+            <div class="p-1 mr-40 text-gray-600">
+                <a href=""><i class="fa-solid fa-right-to-bracket"></i>Войти / Регистрация</a>
+            </div>
+        </div>
+    </div>
+    <div class="bg-black">
+        <div class="container flex items-center justify-around px-[15px]">
+            <div class="">
+                <a href=""><img src="./images/Icon.png" alt=""></a>
+            </div>
+            <div class="no-underline text-inheri mr-">
+                <ul class="flex pl-[7px]">
+                    <li class="text-white px-5 py-5 hover:bg-[#1F1F1F]">ПОНРАВИЛОСЬ</li>
+                    <li class="text-white px-5 py-5 hover:bg-[#1F1F1F]">ЛИЧНЫЕ КАБИНЕТ</li>
+                    <li class="text-white  px-5 py-5 hover:bg-[#1F1F1F]">НАСТРОЙКИ</li>
+                    <li class="px-5 py-5 hover:bg-[#1F1F1F]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                            <path
+                                d="M20.0035 6.81175C19.9192 6.6899 19.8066 6.59031 19.6754 6.5215C19.5441 6.45269 19.3982 6.41672 19.25 6.41667H6.72193L5.66409 3.8775C5.52539 3.54312 5.29052 3.25746 4.98927 3.05673C4.68801 2.856 4.33393 2.74925 3.97193 2.75H1.83334V4.58334H3.97193L8.32059 15.0196C8.39025 15.1866 8.50775 15.3292 8.65831 15.4295C8.80887 15.5298 8.98575 15.5834 9.16668 15.5833H16.5C16.8823 15.5833 17.2242 15.3459 17.3589 14.9893L20.1089 7.656C20.1609 7.51724 20.1785 7.36794 20.1601 7.22091C20.1417 7.07387 20.088 6.93348 20.0035 6.81175ZM15.8648 13.75H9.77809L7.48643 8.25H17.9273L15.8648 13.75Z"
+                                fill="white" />
+                            <path
+                                d="M9.625 19.25C10.3844 19.25 11 18.6344 11 17.875C11 17.1156 10.3844 16.5 9.625 16.5C8.86561 16.5 8.25 17.1156 8.25 17.875C8.25 18.6344 8.86561 19.25 9.625 19.25Z"
+                                fill="white" />
+                            <path
+                                d="M16.0417 19.25C16.801 19.25 17.4167 18.6344 17.4167 17.875C17.4167 17.1156 16.801 16.5 16.0417 16.5C15.2823 16.5 14.6667 17.1156 14.6667 17.875C14.6667 18.6344 15.2823 19.25 16.0417 19.25Z"
+                                fill="white" />
+                        </svg>
+                    </li>
+                    <li class="px-5 py-5 hover:bg-[#1F1F1F]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                            <path
+                                d="M19.25 17.4167L14.5255 12.6922C15.3989 11.3648 15.7488 9.76047 15.5073 8.18993C15.2658 6.61939 14.4501 5.19431 13.2182 4.19061C11.9864 3.18692 10.4259 2.676 8.83895 2.75678C7.252 2.83755 5.75147 3.50428 4.62788 4.62788C3.50428 5.75147 2.83755 7.252 2.75678 8.83895C2.676 10.4259 3.18692 11.9864 4.19061 13.2182C5.19431 14.4501 6.61939 15.2658 8.18993 15.5073C9.76047 15.7488 11.3648 15.3989 12.6922 14.5255L17.4167 19.25L19.25 17.4167ZM4.58335 9.16669C4.58335 6.63944 6.63944 4.58335 9.16669 4.58335C11.6939 4.58335 13.75 6.63944 13.75 9.16669C13.75 11.6939 11.6939 13.75 9.16669 13.75C6.63944 13.75 4.58335 11.6939 4.58335 9.16669Z"
+                                fill="white" />
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-hero bg-cover h-[90vh]">
+        <div class="container">
+            <div class="h-[90vh] flex flex-col items-center justify-center gap-10">
+                <div class="flex items-center justify-center">
+                    <img src="./images/lll.png" alt="">
+                </div>
+                <div class="keresiz">
+                    <p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
+                        interdum
+                        purus, est tortor <br> pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor
+                        id
+                        eu interdum <br> nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi.
+                        <br> Tortor nibh magna feugiat id nunc, dui nisl viverra.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
